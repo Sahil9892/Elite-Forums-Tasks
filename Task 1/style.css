@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+.sidebar{
+    height: 100vh;
+    width: 300px;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgframe{
+    height: 120px;
+    width: 120px;
+    background-color: grey;
+    position: relative;
+    margin-top: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+}
+
+.profimg{
+    height: 105px;
+    width: 105px;
+    background-image: url(parth.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+}
+
+.sidebar-name{
+    color: white;
+    position: relative;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin: 20px; 
+}
+
+.socials{
+    background-color: black;
+    height: 40px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.socials a img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    padding: 5px;
+}
+
+.socials a img:hover{
+    scale: 1.1;
+    box-shadow: 0 0 10px rgba(39, 147, 206, 1);
+}
+
+.options{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.options a{
+    text-decoration: none;
+    color: grey;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.options a i{
+    font-size: 15px;
+}
+
+.options a:hover {
+    color: white;
+}
+
+.options a:hover i {
+    color: rgb(91, 144, 210);
+}
+
+
+.copyright{
+    color: white;
+    margin: 20px;
+    font-size: small;
+}
+
+.backdrop {
+    height: 100vh;
+    margin-left: 300px;
+    width: calc(100% - 300px);
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-image: url(person2.avif);
+    background-size: cover;
+    z-index: -1;
+}
+
+.name-header{
+    height: 100vh;
+    width: calc(100% - 300px);
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.name{
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    position: relative;
+    left: 120px;
+}
+
+.name p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.about{
+    height: 90vh;
+    margin-left: 300px;
+    width: calc(100% - 300px);
+    background-color: rgb(255, 255, 255);
+}
+
+.section-header{
+    height: 100px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.section-header h2{
+    font-size: 2.5rem;
+}
+.underline{
+    height: 5px;
+    width: 50px;
+    background-color: rgb(25, 161, 179);
+}
+
+.about-text{
+    padding: 20px;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about-image{
+    background-image: url(parth.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin: 20px 0px 0px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.505);
+}
+
+.about-description{
+    width: 800px;
+    height: 400px;
+    margin: 20px 20px 20px 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0,0.5);
+    padding: 20px;
+}
+
+.about-description-header p{
+    font-family: sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    /* margin: 10px; */
+}
+
+.about-info{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.about-info-1{
+    width: 50%;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.about-info-2{
+    width: 50%;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.about-info li{
+    list-style-type: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    display: inline;
+}
+
+.about-info li p{
+    font-size: 1rem;
+}
+
+.about-info li p{
+    display: inline;
+}
+
+/* SKILLS */
+
+.skills{
+    height: 130vh;
+    margin-left: 300px;
+    width: calc(100% - 300px);
+    background-color: rgb(255, 255, 255);
+}
+
+.skills-text{
+    padding: 20px;
+}
+
+.skills-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.languages-box{
+    height: 300px;
+    width: 80%;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.skills-header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.skills-container{
+    height: 220px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.frontend-box{
+    height: 300px;
+    width: 80%;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.skill-tile{
+    height: 120px;
+    width: 120px;
+    background-color:#f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 179, 176);
+}
+
+.skill-img{
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+}
+
+.progress-bar{
+    height: 10px;
+    width: 100px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    border-radius: 10%;
+    border: 1px solid black;
+}
+
+.progress-c{
+    height: 10px;
+    width: 90px;
+    background-color: rgb(25, 161, 179);
+    border-radius: 10%;
+}
+
+.progress-java{
+    height: 10px;
+    width: 70px;
+    background-color:  rgb(25, 161, 179);
+    border-radius: 10%;
+}
+
+.progress-python{
+    height: 10px;
+    width: 10px;
+    background-color:  rgb(25, 161, 179);
+    border-radius: 10%;
+}
+
+.progress-html{
+    height: 10px;
+    width: 95px;
+    background-color:  rgb(25, 161, 179);
+    border-radius: 10%;
+}
+
+.progress-css{
+    height: 10px;
+    width: 90px;
+    background-color:  rgb(25, 161, 179);
+    border-radius: 10%;
+}
+
+.progress-javascript{
+    height: 10px;
+    width: 20px;
+    background-color:  rgb(25, 161, 179);
+    border-radius: 10%;
+}
+
+.progress-reactjs{
+    height: 10px;
+    width: 5px;
+    background-color:  rgb(25, 161, 179);
+    border-radius: 10%;
+}
+
+.skill-outro{
+    margin: 20px;
+    text-align: center;
+}
+
+/* PROJECTS */
+
+.projects{
+    height: 130vh;
+    margin-left: 300px;
+    width: calc(100% - 300px);
+    background-color: rgb(255, 255, 255);
+}
+
