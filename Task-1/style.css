@@ -31,10 +31,13 @@
 .profimg{
     height: 105px;
     width: 105px;
-    background-image: url(parth.jpg);
+    background-image: url(logosquare.png);
     background-size: cover;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .sidebar-name{
@@ -163,6 +166,7 @@
 .section-header h2{
     font-size: 2.5rem;
 }
+
 .underline{
     height: 5px;
     width: 50px;
@@ -171,6 +175,11 @@
 
 .about-text{
     padding: 20px;
+    font-size: 1.8rem;
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    border-radius: 10px;
 }
 
 .about-content{
@@ -179,7 +188,7 @@
     justify-content: space-between;
 }
 .about-image{
-    background-image: url(parth.jpg);
+    background-image: url(sahil.jpg);
     background-size: cover;
     height: 300px;
     width: 300px;
@@ -202,6 +211,13 @@
     font-size: 1.8rem;
     font-weight: 700;
     /* margin: 10px; */
+}
+
+.about-outro{
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px;
 }
 
 .about-info{
@@ -253,6 +269,11 @@
 
 .skills-text{
     padding: 20px;
+    font-size: 1.8rem;
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    border-radius: 10px; 
 }
 
 .skills-box{
@@ -392,7 +413,13 @@
 }
 
 .projects-text{
-    margin: 20px
+    margin: 20px;
+    font-size: 1.8rem;
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .projects-container{
@@ -479,7 +506,7 @@
     justify-content: space-evenly;
     background-color: black;
     color: rgb(255, 255, 255);
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 .location{
@@ -507,9 +534,6 @@
     padding: 10px 10px;
     border-radius: 50%;
     font-size: 16px;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
   }
 
 .back-to-top i{
@@ -517,4 +541,8 @@
     position: relative;
     left: 13px;
     top: 13px;
+}
+
+.back-to-top:hover i{
+    scale: 1.2;
 }
