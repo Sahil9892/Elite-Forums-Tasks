@@ -14,10 +14,20 @@
     justify-content: center;
 }
 
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
 h1{
     font-family: 'Courier New', Courier, monospace;
-    margin: 50px;
-    
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5px;
 }
 
 .calculator{
